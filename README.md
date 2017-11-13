@@ -1,7 +1,7 @@
 http://www.agileday.it/mini/2018/trento/
 
 ## Deploy
-First, get a valid .pem certificate to be able to connect to the machine where the site is published (through a git repository and a deploy automation).
+First, get a valid .pem certificate (let's call it `miniiad.pem`) to be able to connect to the machine where the site is published (through a git repository and a deploy automation).
 
 Then, add this line to your `~/.ssh/config` file:
 
@@ -14,7 +14,7 @@ Host  54.154.31.160
 
 Also, you'll need to add this remote to your local git repository
 
-```
+```ssh
 git remote add live ssh://miniiad@54.154.31.160/home/miniiad/mini2018trento.git
 
 ```
