@@ -11,13 +11,6 @@
 	margin: 5px;
 }
 
-.brand-frame {
-	background-color: rgba(255, 255, 255, 0.6);
-	border-radius: 25px;
-	padding: 15px;
-	padding-top: 40px;
-}
-
 .link-iscrizione {
 	background-color: rgba(0, 128, 0, 0.6);
 	border-radius: 15px;
@@ -98,10 +91,6 @@ td.prtd_hh {
 .prtd_keynote {
 	background: rgba(0, 170, 212, .4);
 	_background: rgba(226, 204, 102, 0.6);
-}
-.prtd_pausa {
-	_background: rgba(0, 170, 212, .4);
-	background: rgba(226, 204, 102, 0.6);
 }
 .prtd_sessione {
 	width: 550px;
@@ -305,10 +294,57 @@ td.prtd_lightning {
 	height: 26px;
 }
 
-
-
-
-
 .flag{
 	height: 20px;
+}
+
+.simple-button {
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 19px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	padding: 6px 12px;
+  color: #FFFFFF;
+	background-color: #5bc0de;
+  border-radius: 4px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.13);
+	text-transform: uppercase;
+}
+
+.tema {
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.send-c4p {
+	padding-top: 30px
+}
+
+#location {
+	text-align: left;
+}
+
+#location .centered {
+	text-align: center;
+}
+
+#location .title {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#location .web {
+	font-size: 16px;
+	color: #000000;
+}
+
+#location .address {
+	font-size: 15px;
 }
