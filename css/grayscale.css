@@ -131,6 +131,10 @@ a:focus {
 }
 .intro-text {
   font-size: 18px;
+  text-align: center;
+}
+.full-width {
+  width: 100%;
 }
 @media (min-width: 767px) {
   .intro {
