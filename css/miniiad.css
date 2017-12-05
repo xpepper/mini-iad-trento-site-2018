@@ -356,7 +356,11 @@ td.prtd_lightning {
 }
 
 .overlay {
-  background-color: rgba(255, 255, 255, 0.5);
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.7+35,0.2+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 35%, rgba(0,0,0,0.2) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 35%,rgba(0,0,0,0.2) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 35%,rgba(0,0,0,0.2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#33000000',GradientType=0 ); /* IE6-9 */
 }
 
 .description {
@@ -372,3 +376,14 @@ td.prtd_lightning {
 .top-nav-collapse{
   padding: 0 30px;
 }
+
+.white{
+  color:white;
+}
+
+
+#headerimg{
+  max-width: 600px;
+  width: 80%;
+}
+
