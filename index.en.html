@@ -2,620 +2,407 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="mini IAD Trento is the Italian Agile Day event going on tour in Trento. Covers topics such as Agile, Lean, Extreme Programmaing both in terms of process and practices.">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="mini IAD Trento is the Italian Agile Day event going on tour in Trento. Covers topics such as Agile, Lean, Extreme Programmaing both in terms of process and practices.">
+  <meta name="author" content="">
+  <meta property="og:image" content="http://agileday.it/mini/2018/trento/img/iad-ge-large.png" />
+  <meta property="og:url" content="index.html" />
+  <meta property="og:title" content="mini Italian Agile Day Trento2018" />
+  <meta property="og:description" content="mini IAD Trento is the Italian Agile Day event going on tour in Trento. Covers topics such as Agile, Lean, Extreme Programmaing both in terms of process and practices."
+  />
+  <title>mini IAD Trento2018</title>
+  <link rel="shortcut icon" href="img/favicon.png" />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <!-- Bootstrap Core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <!-- Fonts -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <!-- Custom Theme CSS -->
+  <link href="css/grayscale.css" rel="stylesheet">
+  <link href="css/miniiad.css" rel="stylesheet">
+</head>
 
-    <meta property="og:image" content="img/iad-ge-large.png" />
-    <meta property="og:url" content="index.html" />
-    <meta property="og:title" content="mini Italian Agile Day Trento2014" />
-    <meta property="og:description" content="mini IAD Trento is the Italian Agile Day event going on tour in Trento. Covers topics such as Agile, Lean, Extreme Programmaing both in terms of process and practices.">
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
-    <title>mini IAD Trento2014</title>
-    <link rel="shortcut icon" href="img/favicon.png" />
-    <link rel="icon" type="image/png" href="img/favicon.png" />
-    <!-- Bootstrap Core CSS -->
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!-- Fonts -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <!-- Custom Theme CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-    <link href="css/miniiad.css" rel="stylesheet">
-    <script src="js/countdown/countdown.js" type="text/javascript"></script>
-  </head>
-  <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+  <script type="text/javascript">
+    function isMobile() {
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
 
-    <script type="text/javascript">
-      function isMobile() {
-        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-      }
+    function getParameterByName(name) {
+      name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+      var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"), results = regex.exec(location.search);
+      return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+  </script>
 
-      function getParameterByName(name) {
-        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"), results = regex.exec(location.search);
-        return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-      }
-    </script>
-    <script>
-      (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] ||
-        function() {
-          (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', 'http://www.google-analytics.com/analytics.js', 'ga');
-
-      ga('create', 'UA-49049803-1', 'agileday.it');
-      ga('send', 'pageview');
-
-    </script>
-
-    <div id="fb-root"></div>
-    <script>
-      ( function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id))
-            return;
-          js = d.createElement(s);
-          js.id = id;
-          js.src = "http://connect.facebook.net/it_IT/all.js#xfbml=1";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header page-scroll">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-            <i class="fa fa-bars"></i>
-          </button>
-          <a class="navbar-brand" href="#page-top" style="padding: 15px 15px 5px;"> <span class="light">mini</span> IAD Trento2014 </a>
-        </div>
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-          <ul class="nav navbar-nav">
-            <li class="hidden">
-              <a href="#page-top"></a>
-            </li>
-            <li class="page-scroll">
-              <a href="#programma">Schedule</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#iscrizione">Registration</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#sponsor">Sponsor</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#location">Location</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#c4p">C4P</a>
-            </li>
-            <li>
-              <a href="index-2.html"><img src="img/flag.it.png" class="flag"/></a>
-            </li>
-            <li>
-              <a href="index.en.html"><img src="img/flag.en.png" class="flag"/></a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div>
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="#page-top" style="padding: 15px 15px 5px;">
+          <span class="light">mini</span> IAD Trento2018 </a>
       </div>
-    </nav>
-    <section class="intro">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <div class="share_buttons">
-                <div class="share_button">
-                  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://agileday.it/mini/2014/trento/" data-text="L'Italian Agile Day diventa #miniiad a Trento, 2 luglio 2014." data-via="xpugtrento" data-lang="it">Tweet</a>
-                  <script>
-                    ! function(d, s, id) {
-                      var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                      if (!d.getElementById(id)) {
-                        js = d.createElement(s);
-                        js.id = id;
-                        js.src = p + '://platform.twitter.com/widgets.js';
-                        fjs.parentNode.insertBefore(js, fjs);
-                      }
-                    }(document, 'script', 'twitter-wjs');
-                  </script>
-                </div>
-                <div class="share_button">
-                  <div class="g-plusone" data-href="http://agileday.it/mini/2014/trento/"></div>
-                  <script type="text/javascript">
-                    window.___gcfg = {
-                      lang : 'en'
-                    };
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li class="page-scroll">
+            <a href="#programma">Schedule</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#iscrizione">Registration</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#c4p">C4P</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#location">Location</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#sponsor">Sponsor</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-                    (function() {
-                      var po = document.createElement('script');
-                      po.type = 'text/javascript';
-                      po.async = true;
-                      po.src = 'https://apis.google.com/js/platform.js';
-                      var s = document.getElementsByTagName('script')[0];
-                      s.parentNode.insertBefore(po, s);
-                    })();
-                  </script>
-                </div>
-                <div class="share_button">
-                  <script src="http://platform.linkedin.com/in.js" type="text/javascript">
-                    lang:en_US
-                  </script>
-                  <script type="IN/Share" data-url="http://agileday.it/mini/2014/trento/" data-counter="right"></script>
-                </div>
-                <div class="share_button">
-                  <div class="fb-like" data-href="http://agileday.it/mini/2014/trento/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-                </div>
-                <div class="share_button">
-                  <div class="fb-share-button" data-href="http://agileday.it/mini/2014/trento/" data-type="button_count"></div>
-                </div>
-              </div>
-              <div class="brand-frame">
-                <h1 class="brand-heading"><img id="headerimg" src="img/iad-ge-large.png"/></h1>
+  <section class="intro">
+    <div class="intro-body overlay">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div>
+              <h1 class="brand-heading">
+                <img id="headerimg" src="img/iad-ge-large.png" />
+              </h1>
+              <div class="full-width">
                 <p class="intro-text">
-                  Agile for Change
+                  "Agile for Change": applying agile methods for a true and durable change.
                   <br/>
-                  <b>Trento, March 17th, 2018</b>
+                  <b>Trento, March 17th 2018</b>
                 </p>
-                <div class="page-scroll">
-                  <a href="#programma" class="btn btn-circle"> <i class="fa fa-angle-double-down animated"></i> </a>
-                </div>
-                <p class="page-scroll">
-                  <table style="margin-left: auto; margin-right: auto">
-                    <tr>
-                      <td>
-                      <script type="application/javascript">
-                        if (getParameterByName("hideCountdown") != 1)
-                          if (isMobile()) {
-                            var myCountdown1 = new Countdown({
-                            width : 200,
-                            height : 44,
-                            year : 2014,
-                            month : 7,
-                            day : 2,
-                            hour : 0,
-                            minute : 0,
-                            rangeHi : "day",
-                            style : "flip"
-                            });
-
-                          } else {
-                            var myCountdown1 = new Countdown({
-                            width : 500,
-                            height : 110,
-                            year : 2014,
-                            month : 7,
-                            day : 2,
-                            hour : 0,
-                            minute : 0,
-                            rangeHi : "day",
-                            style : "flip"
-                            });
-                          }
-                      </script></td>
-                    </tr>
-                  </table>
+                <p>
+                  <i class="fa fa-twitter fa-lg" aria-hidden="true">#miniiadtn</i>
                 </p>
               </div>
-
+              <div class="page-scroll">
+                <a href="#programma" class="btn btn-circle">
+                  <i class="fa fa-angle-double-down animated"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
+    </div>
+  </section>
+  <div class="container-fluid">
     <section id="programma" class="content-section text-center">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <h2>Schedule</h2>
-          <div class="col-lg-8 col-lg-offset-2">
-                    <table class="prtbl">
-                      <tr class="prtr_header">
-                        <td></td><td>Track 1</td><td> Track 2</td>
-                      </tr>
-                      <tr>
-                        <td class="prtd_hh">9:00am</td><td class="prtd_checkin" colspan="2" >Check-in</td>
-                      </tr>
-                      <tr>
-                        <td class="prtd_hh">9:50am</td><td class="prtd_opening" colspan="2" >Opening</td>
-                      </tr>
-                      <tr>
-                        <td class="prtd_hh">10:00am</td><td class="prtd_welcome" colspan="2">
-                        <div class="session_title">
-                          <a href="#welcome" class="abstract-link" colspan="2" >Welcome</a>
-                        </div>
-                        <div class="session_speaker" colspan="2">
-                          TechPeaks and XPUG Trento
-                        </div></td>
-                      </tr>
-                      <tr>
-                        <td class="prtd_hh">10:15am</td><td class="prtd_keynote" colspan="2">
-                        <div class="session_title">
-                          <a href="#growingagile" class="abstract-link">Growing Agile Organization (keynote)
-                          <br/>
-
-                        </div>
-                        <div class="session_speaker">
-                          <a href="https://www.linkedin.com/in/ppugliese" target="_blank">Pierluigi Pugliese</a>
-                        </div>
-                      </td>
-                      </tr>
-                      <tr>
-                      <td class="prtd_hh">11:00am</td><td class="prtd_sessione">
-                        <div class="session_title">
-                          <a href="#rewindtofastforwardretrospectivesastheessenceofagile" class="abstract-link">LiquidO: no management from the trenches
-                        </div>
-                        <div class="session_speaker">
-                          <a href="https://www.linkedin.com/in/jakuza" target="_blank">Jacopo Romei</a>
-                        </div></td>
-                        <td class="prtd_workshop" >
-                        <div class="session_title">
-                          <a href="#Lego4Scrum" class="abstract-link">What is Agile</a>
-                        </div>
-                        <div class="session_speaker">
-                          <a href="https://www.linkedin.com/pub/marco-trincardi/0/717/656" target="_blank" style="color: white">Marco Trincardi</a>
-                        </div></td>
-                      </tr>
-                      <tr>
-                        <td class="prtd_hh">11:30am</td><td class="prtd_pausa" colspan="2">Coffee Break</td>
-                      </tr>
-                      <tr>
-                        <td class="prtd_hh">12:00pm</td><td class="prtd_sessione">
-                        <div class="session_title" >
-                          <a href="#agilegramelot" class="abstract-link">Lean Experience Design</a>
-                        </div>
-                        <div class="session_speaker">
-                          <a href="https://www.linkedin.com/in/lucamascaro/it" target="_blank">Luca Mascaro</a>
-                        </div></td>
-                        <td class="prtd_workshop" >
-                        <div class="session_title">
-                          <a href="#Lego4Scrum" class="abstract-link">Marshmallow Challenge</a>
-                        </div>
-                        <div class="session_speaker">
-                          <a href="https://it.linkedin.com/in/beschi" target="_blank" style="color: white">Carlo Beschi</a>
-                        </div></td>
-                      </tr>
-                      <tr>
-                        <td class="prtd_hh">12:45pm</td><td class="prtd_pausa" colspan="2">Lunch</td>
-                      </tr>
-                      <tr>
-                        <td class="prtd_hh">2:00pm</td><td class="prtd_sessione">
-                        <div class="session_title" >
-                          <a href="#agilegramelot" class="abstract-link">Agile Gramelot</a>
-                        </div>
-                        <div class="session_speaker">
-                          <a href="https://www.linkedin.com/pub/giovanni-puliti/0/793/852" target="_blank">Giovanni Puliti</a>, <a href="https://www.linkedin.com/in/marcocalzolari" target="_blank">Marco Calzolari</a>
-                        </div></td>
-                        <td class="prtd_workshop" rowspan="2">
-                        <div class="session_title">
-                          <a href="#InstillingScrum" class="abstract-link">Instilling Scrum</a>
-                        </div>
-                        <div class="session_speaker">
-                          <a href="https://it.linkedin.com/in/raoulbuzziol" target="_blank" style="color: white"> Raoul Buzziol</a>, <a href="https://www.linkedin.com/in/andrearodriguez" target="_blank" style="color: white">Andrea Rodriguez</a>
-                        </div></td>
-                      </tr>
-
-                      <tr>
-                        <td class="prtd_hh">4:00pm</td><td class="prtd_sessione">
-                        <div class="session_title">
-                          <a href="#CI" class="abstract-link">Continuous Integration: from server to cloud</a>
-                        </div>
-                        <div class="session_speaker">
-                          <a href="http://it.linkedin.com/pub/paolo-d-incau/8/471/a2a" target="_blank">Paolo D'Incau</a>
-                        </div></td>
-
-                      </tr>
-
-                      <tr>
-                        <td class="prtd_hh">5:00pm</td><td class="prtd_opening" colspan="2">Closing</td>
-                      </tr>
-                    </table>
-                    <br>
-
-                    <div class="abstracts">
-                      <div class="abstract-div" id="GrowingAgileOrganization">
-                        <div class="abstract-time">
-                        10:15
-                        </div>
-                        <div class="abstract-content">
-                          <div class="abstract-title">
-                            Growing Agile Organization
-                          </div>
-                          <div class="abstract-speaker">
-                            <a href="https://www.linkedin.com/in/ppugliese" target="_blank">Pierluigi Pugliese</a>
-                          </div>
-                          <div class="abstract-text">
-                            Implementing agility is way more than just “using a process”: it’s a growth path for  the individuals and the whole organisation, a path that is usually ridden with obstacles that need to be overcome through a systematic and holistic effort. This presentation offers some ideas for designing and implementing such a growth path, highlighting what are the most typical problems and possible options to solve them for all roles involved: from developers to the leadership.
-                          </div>
-                        </div>
-                      </div>
-                      <div class="abstract-div" id="LiquidO">
-                        <div class="abstract-time">
-                          11:00
-                        </div>
-                        <div class="abstract-content alt">
-                          <div class="abstract-title">
-                            LiquidO: no management from the trenches
-                          </div>
-                          <div class="abstract-speaker">
-                            <a href="https://www.linkedin.com/in/jakuza" target="_blank">Jacopo Romei</a>
-                          </div>
-                          <div class="abstract-text">
-                            During more than 100 years of classic management, hierarchy oriented organizations have shown their limits. A new generation of enterprises is now moving its first steps towards a brand new way to organize and prosper. Liquid, collaborative, flat, responsive, adaptive and anti-fragile: these are just buzzwords as long as alibis keep hanging around. Based on our real experience, we tell our story of experimenting with new ways to set an organization up.
-                          </div>
-                        </div>
-                      </div>
-                      <div class="abstract-div" id="WhatIsAgile">
-                        <div class="abstract-time">
-                          11:00
-                        </div>
-                        <div class="abstract-content">
-                          <div class="abstract-title">
-                            What is Agile
-                          </div>
-                          <div class="abstract-speaker">
-                            <a href="https://www.linkedin.com/pub/marco-trincardi/0/717/656" target="_blank">Marco Trincardi</a>
-                          </div>
-                          <div class="abstract-text">
-                            Most of the times Agile is described as a set of practices. In this presentation I will give a different point of view of Agile, where practices are just a means to build an effective working culture.
-                          </div>
-                        </div>
-                      </div>
-                      <div class="abstract-div" id="LeanExperienceDesign">
-                        <div class="abstract-time">
-                          12:00
-                        </div>
-                        <div class="abstract-content alt">
-                          <div class="abstract-title">
-                            Lean Experience Design
-                          </div>
-                          <div class="abstract-speaker">
-                            <a href="https://www.linkedin.com/in/lucamascaro/it" target="_blank">Luca Mascaro</a>
-                          </div>
-                          <div class="abstract-text">
-                            In the Customer Age design has become one of the most powerful business ally in the challenge to create and offer products and services that can provide superior quality experiences. Many companies and brands dare to take this challenge during the design of their services but usually they eve never applied an iterative and incremental approach.
-                            <br />
-                            So how is possible to develop an experience design project in a complex context with a lean approach and what are the effects on the client? I will present a real case regarding the redesign of the Gazzetta dello Sport experience and the impact on stakeholders in sharing, learning and refining an imperfect, incomplete and impermanent design.
-                          </div>
-                        </div>
-                      </div>
-                      <div class="abstract-div" id="MarshmallowChallenge">
-                        <div class="abstract-time">
-                          12:00
-                        </div>
-                        <div class="abstract-content">
-                          <div class="abstract-title">
-                            Marshmallow Challenge
-                          </div>
-                          <div class="abstract-speaker">
-                            <a href="https://it.linkedin.com/in/beschi" target="_blank">Carlo Beschi</a>
-                          </div>
-                          <div class="abstract-text">
-                            The challenge is a remarkably fun and instructive design exercise that encourages teams to experience simple but profound lessons in collaboration, innovation and creativity.
-                          </div>
-                        </div>
-                      </div>
-                      <div class="abstract-div" id="AgileGrammelot">
-                        <div class="abstract-time">
-                          14:00
-                        </div>
-                        <div class="abstract-content alt">
-                          <div class="abstract-title">
-                            Agile Grammelot
-                          </div>
-                          <div class="abstract-speaker">
-                            <a href="https://www.linkedin.com/pub/giovanni-puliti/0/793/852" target="_blank">Giovanni Puliti</a>, <a href="https://www.linkedin.com/in/marcocalzolari" target="_blank">Marco Calzolari</a>
-                          </div>
-                          <div class="abstract-text">
-                            "In preparing for battle I have always found that plans are useless, but planning is indispensable".
-We take inspiration from this sentence by Dwight D. Eisenhower to start AgileGrammelot, the workshop we will conduct at MinIAD
-In AgileGrammelot, all the participants will experience an Agile approach to team work, by playing games, following a tipical iterative incremental approach: the goal is to talk about the visioning, the managment of the relationship between the  product, the team, the customer (aka Product Ownership).
-We will try to simulate the planning and the production stages of a fictional product in order to see at first hand the typical behavioural dynamics involved in a working process. Also, we will try to understand what behaviours work better to comply with three capital principles of the Lean system: mura ("unevenness"), muri ("overburden") and muda ("waste").
-                          </div>
-                        </div>
-                      </div>
-                      <div class="abstract-div" id="InstillingScrum">
-                        <div class="abstract-time">
-                          14:00
-                        </div>
-                        <div class="abstract-content">
-                          <div class="abstract-title">
-                            Instilling Scrum
-                          </div>
-                          <div class="abstract-speaker">
-                            <a href="https://it.linkedin.com/in/raoulbuzziol" target="_blank"> Raoul Buzziol</a>, <a href="https://www.linkedin.com/in/andrearodriguez" target="_blank">Andrea Rodriguez</a>
-                          </div>
-                          <div class="abstract-text">
-                            Why Scrum? How do you do it? What will I gain? Learn the basics of the empiric process building your product in an iterative and incremental way... playing.
-
-Scrum is a development process that is becoming mainstream in many environments. It's not something you can install, but "introduce gradually; implant or infuse" (dict.). To understand reasons and effectiveness it is necessary to experiment it personally and the best way to start is hands on; the goal of the workshop is to build a product guided by a vision, using one of the most powerful learning tool: games. There will be impediments, but an effective self organized team will achieve success... in an iterative and incremental way!
-                          </div>
-                        </div>
-
-                      </div>
-                      <div class="abstract-div" id="CI">
-                        <div class="abstract-time">
-                          16:00
-                        </div>
-                        <div class="abstract-content alt">
-                          <div class="abstract-title">
-                            Continuous Integration: from server to cloud
-                          </div>
-                          <div class="abstract-speaker">
-                            <a href="http://it.linkedin.com/pub/paolo-d-incau/8/471/a2a" target="_blank">Paolo D'Incau</a>
-                          </div>
-                          <div class="abstract-text">
-                            Continuous Integration (CI) is a practice every team should adopt in order to solve integration problems easily and detect defects and errors early. Using CI we can growth solid software by giving greater confidence to the developers and better products to the final customers.
-
-In this talk we will briefly introduce what CI is and we will discuss some of the many different solutions we can employ when it comes to setting up a CI pipeline for our projects.
-                          </div>
-                        </div>
-                      </div>
-                                            </div>
-
+          <table class="prtbl">
+            <tr class="prtr_header">
+              <td></td>
+              <td>Track 1</td>
+              <td>Track 2</td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">08:30</td>
+              <td class="prtd_checkin" colspan="2">Check-in</td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">09:30</td>
+              <td class="prtd_keynote" colspan="2">
+                <div class="session_title">
+                  <a href="#keynote" class="abstract-link">Keynote</a>
+                  <br/>
+                </div>
+                <div class="session_speaker">
+                  <a href="" target="_blank">Speaker</a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">10:15</td>
+              <td class="prtd_checkin" colspan="2">Coffee Break</td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">10:30</td>
+              <td class="prtd_sessione">
+                <div class="session_title">
+                  <a href="#" class="abstract-link">Talk1</a>
+                </div>
+                <div class="session_speaker">
+                  <a href="" target="_blank">Speaker1</a>
+                </div>
+              </td>
+              <td class="prtd_workshop">
+                <div class="session_title">
+                  <a href="#" class="abstract-link">Talk2</a>
+                </div>
+                <div class="session_speaker">
+                  <a href="" target="_blank" style="color: white">Speaker2</a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">11:15</td>
+              <td colspan="2">Break</td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">11:30</td>
+              <td class="prtd_sessione">
+                <div class="session_title">
+                  <a href="#" class="abstract-link">Talk3</a>
+                </div>
+                <div class="session_speaker">
+                  <a href="" target="_blank">Speaker3</a>
+                </div>
+              </td>
+              <td class="prtd_workshop">
+                <div class="session_title">
+                  <a href="#" class="abstract-link">Talk4</a>
+                </div>
+                <div class="session_speaker">
+                  <a href="" target="_blank" style="color: white">Speaker4</a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">12:15</td>
+              <td colspan="2">Break</td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">12:30</td>
+              <td class="prtd_sessione">
+                <div class="session_title">
+                  <a href="#" class="abstract-link">Talk5</a>
+                </div>
+                <div class="session_speaker">
+                  <a href="" target="_blank">Speaker5</a>
+                </div>
+              </td>
+              <td class="prtd_workshop">
+                <div class="session_title">
+                  <a href="#" class="abstract-link">Talk6</a>
+                </div>
+                <div class="session_speaker">
+                  <a href="" target="_blank" style="color: white">Speaker6</a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">13:15</td>
+              <td class="prtd_checkin" colspan="2">Lunch</td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">14:30</td>
+              <td class="prtd_sessione">
+                <div class="session_title">
+                  <a href="#" class="abstract-link">Talk7</a>
+                </div>
+                <div class="session_speaker">
+                  <a href="" target="_blank">Speaker7</a>
+                </div>
+              </td>
+              <td class="prtd_workshop">
+                <div class="session_title">
+                  <a href="#" class="abstract-link">Talk8</a>
+                </div>
+                <div class="session_speaker">
+                  <a href="" target="_blank" style="color: white">Speaker8</a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">15:15</td>
+              <td colspan="2">Break</td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">15:30</td>
+              <td class="prtd_sessione">
+                <div class="session_title">
+                  <a href="#" class="abstract-link">Talk9</a>
+                </div>
+                <div class="session_speaker">
+                  <a href="" target="_blank">Speaker9</a>
+                </div>
+              </td>
+              <td class="prtd_workshop">
+                <div class="session_title">
+                  <a href="#" class="abstract-link">Talk10</a>
+                </div>
+                <div class="session_speaker">
+                  <a href="" target="_blank" style="color: white">Speaker10</a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">16:15</td>
+              <td class="prtd_checkin" colspan="2">Coffee Break</td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">16:30</td>
+              <td class="prtd_sessione">
+                <div class="session_title">
+                  <a href="#" class="abstract-link">Talk11</a>
+                </div>
+                <div class="session_speaker">
+                  <a href="" target="_blank">Speaker11</a>
+                </div>
+              </td>
+              <td class="prtd_workshop">
+                <div class="session_title">
+                  <a href="#" class="abstract-link">Talk12</a>
+                </div>
+                <div class="session_speaker">
+                  <a href="" target="_blank" style="color: white">Speaker12</a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="prtd_hh">17:15</td>
+              <td class="prtd_checkin" colspan="2">Closing</td>
+            </tr>
+          </table>
         </div>
       </div>
-      <div class="page-scroll" style="margin-top: 50px">
-        <a href="#iscrizione" class="btn btn-circle"> <i class="fa fa-angle-double-down animated"></i> </a>
-      </div>
     </section>
-
     <section id="iscrizione" class="content-section text-center">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <h2>Registration</h2>
+          <p class="description">
+            MiniIAD Trento is a free conference with the goal of gathering all the people interested into topics related to agile
+            software development.
+            <br/>
+            <br/>Join us March 17th 2018!
+          </p>
           <div class="well box-eventbrite">
             <div class="sticker save-the-date">
               Save the date!
             </div>
-            <h3>Registrations are open</h3>
-            <div style="width:100%; text-align:left; height: 300px !important;" ><iframe  src="http://eventbrite.it/tickets-external?eid=11942033945&amp;ref=etckt" frameborder="0" height="300" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.it/r/etckt">Gestione evento</a><span style="color:#ddd;"> per </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="https://miniiad2014trento.eventbrite.it/?ref=etckt">mini Italian Agile Day Trento 2014</a> <span style="color:#ddd;">con tecnologia</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.it/?ref=etckt">Eventbrite</a></div></div>
+            <h3>Coming soon...</h3>
           </div>
         </div>
       </div>
-      <div class="page-scroll" style="margin-top: 50px">
-        <a href="#sponsor" class="btn btn-circle"> <i class="fa fa-angle-double-down animated"></i> </a>
+    </section>
+    <section id="c4p" class="content-section text-center">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h2>Call For Proposal</h2>
+          <p>
+            Submit a talk or a workshop for the miniiad Trento 2018!
+            <br/>We are looking for related to this year topic:
+          </p>
+          <span class="tema">Agile for Change: actionable practices and tools to foster a real change that has an impact on the organizations, their teams and their outcomes"</span>
+          <div class="send-c4p">
+            <a href="https://goo.gl/forms/3cuI0iZuGedZdFep2" class="simple-button">Submit your proposal!</a>
+          </div>
+        </div>
       </div>
     </section>
-
+    <section id="location" class="content-section text-center">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+          <h2 class="centered">LOCATION</h2>
+          <div class="col-lg-6">
+            <p class="title">University of Trento - Department of Sociology and Social Research</p>
+            <p class="address">Via Giuseppe Verdi, 26, 38122 Trento TN</p>
+            <a href="http://sociologia.unitn.it">
+              <i class="web   fa fa-external-link"> sociologia.unitn.it</i>
+            </a>
+          </div>
+          <div class="col-lg-6 maps-frame map-no-scroll">
+            <iframe class="maps-frame" src="https://www.google.com/maps/embed/v1/place?q=Department+of+Sociology+and+Social+Research&zoom=17&key=AIzaSyC1EQaaV02pS5kxFxMevvtfqxcX4-Eh4ZM"
+              allowfullscreen="" width="100%" height="400px" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="sponsor" class="content-section text-center">
       <div class="row">
         <div class="sponsor-list col-lg-8 col-lg-offset-2">
           <h2>Sponsor</h2>
           <p>
-            The mini IAD trento2014 is a entirely no-profit event organized by the Extreme Programming User Group (XPUG) of Trento.
-            <br/>
-            The sponsors donated services that are essential to the success of the event.
-            <br/>
-            Would you like to become a sponsor? Contact us: <a href="mailto:xpugtrento@gmail.com">xpugtrento@gmail.com</a>
-            <br/>
-            <br/>
-            <br/>
-                        <br/>
-                        <span style="font-weight: bold"> Our sponsors: </span>
-                      </p>
-                      <div class="sponsor-container">
-                        <div class="sponsor-line">
-                          <div class="sponsor-div">
-                            <a href="http://www.xpeppers.com/" target="_blank"><img src="img/logo_xpeppers.png"/></a>
-                          </div>
-                          <div class="sponsor-div">
-                            <a href="http://www.graffiti2000.com/" target="_blank"><img src="img/logo_graffiti.png"/></a>
-                          </div>
-                        </div>
-            </div>
+            Mini IAD Trento 2018 is an entirely no-profit conference organized by the Extreme Programming User Group (XPUG) Trento.
           </p>
-          <div class="sponsor-container">
-          </div>
+          <p>
+            Becoming a sponsor you will bring services needed to create a successful conference, and by doing so you will help
+            the agile movement of Trento and Italy.
+          </p>
+          <a href="mailto:xpugtrento@gmail.com" class="simple-button">I want to be sponsor!</a>
         </div>
       </div>
-      <div class="page-scroll" style="margin-top: 20px">
-        <a href="#location" class="btn btn-circle"> <i class="fa fa-angle-double-down animated"></i> </a>
-      </div>
     </section>
-
-    <section id="location" class="content-section text-center">
-      <div class="row">
-        <div class="container">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2>Location</h2>
-            <ul class="list-inline">
-              <li style="width: 85%">
-                <img src="http://techpeaks.eu/themes/techpeaks/assets/img/logo_page.png" style="vertical-align: inherit; vertical-align: bottom; margin-right: -30px;"/>
-                <p style="text-align: left; display: inline-block">
-                  TechPeaks
-                  <br/>
-                  Piazza Venezia, 41 – Palazzo Verdi (4th floor)
-                  <br/>
-                  38123 Trento
-                </p>
-              </li>
-            </ul>
-            <a href="http://techpeaks.eu/" class="btn btn-default btn-lg" target="_blank">TechPeaks Trento</a>
-            <p style="text-align: left; font-style: italic; margin: 40px 100px auto 100px;">
-              N.B.:
-              <br/>
-              No free parking nearby the venue, sorry :(
-              <br/>
-              You can easily reach the venue with public transportation or by walk from the train station.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="page-scroll" style="margin-top: 50px">
-        <a href="#c4p" class="btn btn-circle"> <i class="fa fa-angle-double-down animated"></i> </a>
-      </div>
-    </section>
-
-    <section id="c4p" class="content-section text-center">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h2>Call For Proposal</h2>
-          <p>If you would like to contribute send us your proposal at: <br> <a href="mailto:xpugtrento@gmail.com">xpugtrento@gmail.com</a></p>
-        </div>
-      </div>
-      <div class="page-scroll" style="margin-top: 50px">
-        <a href="#staytuned" class="btn btn-circle"> <i class="fa fa-angle-double-down animated"></i> </a>
-      </div>
-    </section>
-
     <section id="staytuned" class="content-section text-center">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <h2>Stay tuned!</h2>
           <ul class="list-inline banner-social-buttons">
             <li>
-              <a href="https://twitter.com/xpugtrento" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+              <a href="https://twitter.com/xpugtrento" target="_blank" class="btn btn-default btn-lg">
+                <i class="fa fa-twitter fa-fw"></i>
+                <span class="network-name">Twitter</span>
+              </a>
             </li>
             <li>
-              <a href="https://plus.google.com/communities/117509234382631073965" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+              <a href="https://plus.google.com/communities/117509234382631073965" target="_blank" class="btn btn-default btn-lg">
+                <i class="fa fa-google-plus fa-fw"></i>
+                <span class="network-name">Google+</span>
+              </a>
             </li>
             <li>
-              <a href="https://groups.google.com/forum/#!forum/trento-xpug" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-thumbs-up fa-fw"></i> <span class="network-name">XPUG Trento ML</span></a>
+              <a href="https://groups.google.com/forum/#!forum/trento-xpug" target="_blank" class="btn btn-default btn-lg">
+                <i class="fa fa-thumbs-up fa-fw"></i>
+                <span class="network-name">XPUG Trento ML</span>
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </section>
+    <section id="footer" class="content-section text-center">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          Italian Agile Movement
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCk9AZGyiEDtLVbbk_vQkVRrrWbkLl2afg&amp;sensor=false"></script>
+  <script src="js/grayscale.js"></script>
+  <script type="text/javascript">
+    if (isMobile()) {
+      $('#headerimg').css('height', 120);
+      $('#twitter_timeline_container').css('position', '').css('margin', '30px auto 0 auto');
+      $('.share_buttons').removeClass('share_buttons');
+      $('.share_button').css('float', 'left');
+    }
+  </script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'http://www.google-analytics.com/analytics.js', 'ga');
 
-
-
-    <div id="twitter_timeline_container" style="position: absolute; width: 281px; top: 100px; right: 30px;">
-      <a class="twitter-timeline" href="https://twitter.com/xpugtrento" data-widget-id="476728411637809152">Tweets by @xpugtrento</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </div>
-    <div id="map"></div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&amp;sensor=false"></script>
-    <script src="js/grayscale.js"></script>
-    <script type="text/javascript">
-      if (isMobile()) {
-        $('#headerimg').css('height', 120);
-        $('#twitter_timeline_container').css('position', '').css('margin', '30px auto 0 auto');
-        $('.share_buttons').removeClass('share_buttons');
-        $('.share_button').css('float', 'left');
-      }
-    </script>
-    <script>
-       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
-
-       ga('create', 'UA-42079416-2', 'agileday.it');
-       ga('send', 'pageview');
-    </script>
-  </body>
-
+    ga('create', 'UA-42079416-2', 'agileday.it');
+    ga('send', 'pageview');
+  </script>
+</body>
 
 </html>
