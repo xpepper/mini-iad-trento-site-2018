@@ -396,16 +396,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
   width: 80%;
 }
 
-@media (max-width: 500px) {
-  #headerimg{
-    width: 100%;
-  }
-
-  table.prtbl{
-    font-size: 16px;
-  }
-}
-
 .nopadding{
   padding:0px;
 }
