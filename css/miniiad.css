@@ -449,3 +449,22 @@ td.prtd_lightning {
 #clockdiv span {
    color: #1a1a1a;
 }
+
+.logo {
+  height: 250px;
+}
+
+.logo-xpeppers {
+  height: 50%;
+  vertical-align: middle
+}
+
+.logo-pmi {
+  height: 60%;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
