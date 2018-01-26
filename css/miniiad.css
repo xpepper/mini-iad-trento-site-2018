@@ -467,8 +467,21 @@ td.prtd_lightning {
   height: 60%;
 }
 
+.logo-fightbean {
+  height: 28%;
+}
+
+.logo-pixart {
+  height: 20%;
+  vertical-align: middle
+}
+
 .logo-sky {
   height: 50%;
+}
+
+.sponsor-tecnici-title {
+  padding-top: 2.5em;
 }
 
 .helper {
