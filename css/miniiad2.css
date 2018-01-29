@@ -144,6 +144,7 @@ section.schedule {
   background-size: cover;
   -o-background-size: cover;
   color: #3c3c3c;
+  position: relative;
 }
 
 section.schedule .table {
@@ -234,6 +235,15 @@ section.schedule .table .speaker-name {
 }
 
 section.schedule .schedule-triangle {
+  position: absolute;
   left: 0;
-  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+section.schedule .schedule-triangle img {
+  position: relative;
+  left: -80px;
+  bottom: -50px;
+  transform: rotate(60deg);
 }
