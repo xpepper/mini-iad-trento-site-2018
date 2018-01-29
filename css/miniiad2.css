@@ -6,6 +6,7 @@
 html, body {
   background: white;
   text-align: center;
+  font-family: Helvetica, "Helvetica Neue"
 }
 
 section {
@@ -40,6 +41,41 @@ section.header .left-triangle {
   top: 50%;
   left: -1%;
   width: 15%;
+}
+
+section.header .location {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  text-align: left;
+  color: white;
+}
+
+section.header .location .fa-map-marker {
+  font-size: 26pt;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+section.header .location .fa-long-arrow-right {
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+section.header .location div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+section.header .location .name {
+  display: inline-block;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+section.header .location .address {
+  display: block;
+  font-size: 13pt;
 }
 
 section .row {
