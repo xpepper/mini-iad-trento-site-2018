@@ -136,8 +136,6 @@ section .slogan .hashtag {
 }
 
 section.schedule {
-  position: relative;
-  text-align: left;
   width: 100%;
   height: auto;
   background-color: #0F3FB7;
@@ -149,11 +147,9 @@ section.schedule {
 
 section.schedule .table {
   line-height: normal;
-  position: relative;
-  top: -15em;
+  margin-top: -25vh;
   font-family: "Arial Neue", Arial;
   font-size: 1.1em;
-  padding-bottom: 11em;
 }
 
 section.schedule .table .hours,
@@ -224,4 +220,9 @@ section.schedule .table .line-even .second-talk {
 section.schedule .table .speaker-name {
   padding-top: 0.5em;
   font-size: 0.9em;
+}
+
+section.schedule .schedule-triangle {
+  left: 0;
+  top: 0;
 }
