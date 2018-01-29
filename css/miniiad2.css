@@ -41,6 +41,13 @@ section.header .right-half-circle {
   right: 0;
 }
 
+section.header .scroll-down {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  margin-left: -94px;
+}
+
 section.header .left-triangle {
   display: inline-block;
   position: absolute;
