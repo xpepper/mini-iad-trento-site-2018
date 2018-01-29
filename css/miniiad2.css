@@ -164,8 +164,12 @@ section.schedule .table .big-talk {
   text-align: center;
 }
 
+section.schedule .table .title {
+  font-weight: bold;
+}
+
 section.schedule .table .hours {
-  width: 16.65%;
+  width: 15%;
   text-align: left;
   font-size: 10pt;
   color: #565656;
@@ -174,37 +178,30 @@ section.schedule .table .hours {
 section.schedule .table .talk,
 section.schedule .table .second-talk,
 section.schedule .table .big-talk {
-  width: 41.67%;
+  width: 35%;
   text-align: left;
   position: relative;
 }
 
-section.schedule .table .talk:before,
-section.schedule .table .big-talk:before,
-section.schedule .table .second-talk:before {
-  content: '';
-  width: 5px;
-  background: yellow;
-  display: inline-block;
-  position: absolute;
-  left: 7%;
-  top: 25%;
-  bottom: 25%;
-  background: #fed530;
-}
-
-section.schedule .table .second-talk:before {
-  background: #42d67b;
-}
-
-section.schedule .table .big-talk:before {
-  left: 3.5%;
+section.schedule .table .second-talk {
+  width: 50%;
 }
 
 section.schedule .table .big-talk,
 section.schedule .table .title {
-  width: 83.35%;
-  font-weight: bold;
+  width: 85%;
+  padding-right: 20%;
+}
+
+section.schedule .table .talk > .inner,
+section.schedule .table .big-talk > .inner,
+section.schedule .table .second-talk > .inner {
+  border-left: 5px solid #fed530;
+  padding-left: 10px;
+}
+
+section.schedule .table .second-talk > .inner {
+  border-color: #42d67b;
 }
 
 section.schedule .table .line-odd {
