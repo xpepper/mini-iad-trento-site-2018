@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -128,4 +129,76 @@ section .slogan .hashtag {
   margin-top: 20px;
   font-size: 16pt;
   border-bottom: 4px solid #0F3FB7;
+}
+
+.clear {
+  clear: both;
+}
+
+section.schedule {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  height: auto;
+  background-color: #0F3FB7;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+section.schedule .table {
+  position: relative;
+  top: -15em;
+  font-family: "Arial Neue", Arial;
+  font-size: 1.1em;
+  padding-bottom: 11em;
+}
+
+section.schedule .table .hours {
+  display: inline-block;
+  width: 16.65%;
+  float: left;
+}
+
+section.schedule .table .title {
+  display: inline-block;
+  text-align: center;
+  width: 66.65%;
+  float: left;
+}
+
+section.schedule .table .talk,
+section.schedule .table .second-talk,
+section.schedule .table .big-talk {
+  display: block;
+  width: 33.32%;
+  float: left;
+  border-left: 5px solid yellow;
+  padding-left: 10px;
+}
+
+section.schedule .table .big-talk {
+  width: 66.65%;
+}
+
+section.schedule .table .second-talk{
+  border-left: 5px solid green;
+}
+
+section.schedule .table .line-odd {
+  background-color: #ece5e5;
+  padding: 1.5em 2.5em;
+  margin: 0;
+}
+
+section.schedule .table .line-even {
+  background-color: #f7f6f6;
+  padding: 1.5em 2.5em;
+  margin: 0;
+}
+
+section.schedule .table .speaker-name {
+  padding-top: 0.5em;
+  font-size: 0.9em;
 }
