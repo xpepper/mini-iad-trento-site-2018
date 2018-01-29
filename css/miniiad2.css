@@ -148,6 +148,7 @@ section.schedule {
 }
 
 section.schedule .table {
+  line-height: normal;
   position: relative;
   top: -15em;
   font-family: "Arial Neue", Arial;
@@ -155,47 +156,69 @@ section.schedule .table {
   padding-bottom: 11em;
 }
 
-section.schedule .table .hours {
+section.schedule .table .hours,
+section.schedule .table .title,
+section.schedule .table .talk,
+section.schedule .table .second-talk,
+section.schedule .table .big-talk {
   display: inline-block;
-  width: 16.65%;
+  padding: 1.5em 2.5em;
   float: left;
+  text-align: center;
 }
 
-section.schedule .table .title {
-  display: inline-block;
-  text-align: center;
-  width: 66.65%;
-  float: left;
+section.schedule .table .hours {
+  width: 16.65%;
+  text-align: left;
 }
 
 section.schedule .table .talk,
 section.schedule .table .second-talk,
 section.schedule .table .big-talk {
-  display: block;
-  width: 33.32%;
-  float: left;
-  border-left: 5px solid yellow;
-  padding-left: 10px;
+  width: 41.67%;
+  text-align: left;
+  position: relative;
 }
 
-section.schedule .table .big-talk {
-  width: 66.65%;
+section.schedule .table .talk:before,
+section.schedule .table .big-talk:before,
+section.schedule .table .second-talk:before {
+  content: '';
+  width: 5px;
+  background: yellow;
+  display: inline-block;
+  position: absolute;
+  left: 1.5em;
+  top: 1.5em;
+  bottom: 1.5em;
+  background: yellow;
 }
 
-section.schedule .table .second-talk{
-  border-left: 5px solid green;
+section.schedule .table .second-talk:before {
+  background: green;
+}
+
+section.schedule .table .big-talk,
+section.schedule .table .title {
+  width: 83.35%;
 }
 
 section.schedule .table .line-odd {
   background-color: #ece5e5;
-  padding: 1.5em 2.5em;
   margin: 0;
+}
+
+section.schedule .table .line-odd .second-talk {
+  background: rgba(0,0,0,0.15)
 }
 
 section.schedule .table .line-even {
   background-color: #f7f6f6;
-  padding: 1.5em 2.5em;
   margin: 0;
+}
+
+section.schedule .table .line-even .second-talk {
+  background: rgba(0,0,0,0.15)
 }
 
 section.schedule .table .speaker-name {
