@@ -143,6 +143,7 @@ section.schedule {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  color: #3c3c3c;
 }
 
 section.schedule .table {
@@ -158,7 +159,7 @@ section.schedule .table .talk,
 section.schedule .table .second-talk,
 section.schedule .table .big-talk {
   display: inline-block;
-  padding: 1.5em 2.5em;
+  padding: 3% 5%;
   float: left;
   text-align: center;
 }
@@ -166,6 +167,8 @@ section.schedule .table .big-talk {
 section.schedule .table .hours {
   width: 16.65%;
   text-align: left;
+  font-size: 10pt;
+  color: #565656;
 }
 
 section.schedule .table .talk,
@@ -184,42 +187,53 @@ section.schedule .table .second-talk:before {
   background: yellow;
   display: inline-block;
   position: absolute;
-  left: 1.5em;
-  top: 1.5em;
-  bottom: 1.5em;
-  background: yellow;
+  left: 7%;
+  top: 25%;
+  bottom: 25%;
+  background: #fed530;
 }
 
 section.schedule .table .second-talk:before {
-  background: green;
+  background: #42d67b;
+}
+
+section.schedule .table .big-talk:before {
+  left: 3.5%;
 }
 
 section.schedule .table .big-talk,
 section.schedule .table .title {
   width: 83.35%;
+  font-weight: bold;
 }
 
 section.schedule .table .line-odd {
-  background-color: #ece5e5;
+  background-color: #f2f2f2;
   margin: 0;
 }
 
 section.schedule .table .line-odd .second-talk {
-  background: rgba(0,0,0,0.15)
+  background: #eaeaea;
 }
 
 section.schedule .table .line-even {
-  background-color: #f7f6f6;
+  background-color: #fafafa;
   margin: 0;
 }
 
 section.schedule .table .line-even .second-talk {
-  background: rgba(0,0,0,0.15)
+  background: #f2f2f2;
+}
+
+section.schedule .table .talk-title {
+  font-weight: bold;
+  font-size: 13pt;
 }
 
 section.schedule .table .speaker-name {
-  padding-top: 0.5em;
-  font-size: 0.9em;
+  font-size: 9pt;
+  color: #565656;
+  font-weight: normal;
 }
 
 section.schedule .schedule-triangle {
