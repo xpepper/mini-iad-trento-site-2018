@@ -15,6 +15,12 @@ section {
   height: 100vh;
 }
 
+@media screen and (max-width: 1200px) {
+  section {
+    padding: 0px 5%;
+  }
+}
+
 section.header {
   background: #0F3FB7;
 }
@@ -53,12 +59,12 @@ section.header .location {
 
 section.header .location .fa-map-marker {
   font-size: 26pt;
-  margin-right: 10px;
+  margin: 3px 10px 0 0;
   vertical-align: top;
 }
 
 section.header .location .fa-long-arrow-right {
-  margin-left: 10px;
+  margin: 3px 0 0 10px;
   vertical-align: top;
 }
 
@@ -69,13 +75,16 @@ section.header .location div {
 
 section.header .location .name {
   display: inline-block;
-  font-size: 16pt;
-  font-weight: bold;
+  font-size: 14pt;
+  letter-spacing: 1px;
 }
 
 section.header .location .address {
   display: block;
-  font-size: 13pt;
+  font-size: 10pt;
+  margin-top: 5px;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
 section .row {
@@ -116,7 +125,6 @@ section .slogan span {
 
 section .slogan .hashtag {
   display: inline-block;
-  font-size: 18pt;
   margin-top: 20px;
   font-size: 16pt;
   border-bottom: 4px solid #0F3FB7;
