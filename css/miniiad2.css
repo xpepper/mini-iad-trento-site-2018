@@ -11,11 +11,11 @@ html, body {
 section {
   vertical-align: middle;
   padding: 0px 15%;
+  height: 100vh;
 }
 
 section.header {
   background: #0F3FB7;
-  height: 100vh;
 }
 
 section.header .logo {
@@ -33,15 +33,46 @@ section.header .left-triangle {
   margin-top: -15%;
 }
 
-section.header .row {
+section .row {
   line-height: 90vh;
   position: relative;
-}
-
-section .row {
   max-width: 1024px;
   display: inline-block;
   width: 100%;
   height: 90%;
   padding: 5% 0;
+}
+
+section .slogan #circle {
+  width: 30%;
+  height:0;
+  padding-bottom: 30%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #FED530;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+section .slogan {
+  position: relative;
+  vertical-align: middle;
+}
+
+section .slogan span {
+  display: inline-block;
+  margin-left: -15%;
+  color: #0F3FB7;
+  font-size: 20pt;
+  line-height: 25pt;
+  vertical-align: middle;
+}
+
+section .slogan .hashtag {
+  display: inline-block;
+  font-size: 18pt;
+  margin-top: 20px;
+  font-size: 16pt;
+  border-bottom: 4px solid #0F3FB7;
 }
