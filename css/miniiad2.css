@@ -155,10 +155,12 @@ section.schedule {
 }
 
 section.schedule .table {
+  position: relative;
   line-height: normal;
   margin-top: -25vh;
   font-family: "Arial Neue", Arial;
   font-size: 1.1em;
+  z-index: 9;
 }
 
 section.schedule .table .hours,
@@ -239,6 +241,20 @@ section.schedule .table .speaker-name {
   font-size: 9pt;
   color: #565656;
   font-weight: normal;
+}
+
+section.schedule .row > .timetable {
+  position: absolute;
+  bottom: 70px;
+  left: -60px;
+  z-index: 1;
+}
+
+section.schedule .row > .legend {
+  position: absolute;
+  top: 70px;
+  right: -60px;
+  z-index: 1;
 }
 
 section.schedule .schedule-triangle {
