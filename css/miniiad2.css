@@ -20,6 +20,22 @@ section.header {
 
 section.header .logo {
   width: 90%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+section.header .left-triangle {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: -1%;
+  width: 15%;
+  margin-top: -15%;
+}
+
+section.header .row {
+  line-height: 90vh;
+  position: relative;
 }
 
 section .row {
