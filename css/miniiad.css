@@ -1,478 +1,152 @@
-.share_buttons {
-  position: fixed;
-  top: 100px;
-  left: 30px;
-  background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 10px;
-  padding: 5px;
-}
-
-.share_button {
-  margin: 5px;
-}
-
-.link-iscrizione {
-  background-color: rgba(0, 128, 0, 0.6);
-  border-radius: 15px;
-}
-
-#location {
-  background: rgb(236, 232, 222);
-}
-
-#c4p {
-  background: rgba(0, 170, 212, 0.3);
-  background: transparent;
-}
-
-#sponsor {
-  background: white;
-  _background: rgba(0, 170, 212, 0.2);
-}
-
-#footer {
-  background: white;
-  _background: rgba(0, 170, 212, 0.2);
-}
-
-#iscrizione {
-  background: rgb(236, 232, 222);
-}
-
-#programma {
-  background: rgba(0, 170, 212, 0.5);
-  background: transparent;
-}
-
-#staff {
-  background: white;
-  _background: rgba(0, 170, 212, 0.5);
-}
-
-#staytuned {
-  background: rgb(236, 232, 222);
-}
-
-.staff_member {
-  display: inline-block;
-  margin: 10px;
-}
-.staff_member_img {
-  height: 150px;
-}
-
-table.prtbl {
-  _background: rgba(0, 170, 212, 0.6);
-  background: white;
-  _border: solid rgba(0, 170, 212, 1);
-  border: 20px solid white;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 18px;
-}
-.prtbl td {
-  _border: solid rgba(0, 170, 212, 0.3);
-  padding: 15px;
-  vertical-align: top;
-  _padding-bottom: 20px;
-}
-.prtr_header {
-  font-style: italic;
-}
-td.prtd_hh {
-  padding-left: 0;
-  border-top: 1px solid #ddd;
-}
-.prtd_checkin {
-  background: rgba(226, 204, 102, 0.6);
-}
-.prtd_opening {
-  background: rgba(0, 170, 212, .4);
-  _background: rgba(226, 204, 102, 0.6);
-}
-.prtd_welcome {
-  _background: rgb(226, 204, 102);
-  background: rgba(0, 170, 212, 0.25);
-}
-.prtd_keynote {
-  background: rgba(0, 170, 212, .4);
-  _background: rgba(226, 204, 102, 0.6);
-}
-.prtd_sessione {
-  width: 550px;
-  _background: rgb(226, 204, 102);
-  background: rgba(0, 170, 212, 0.25);
-}
-.prtd_sessione.alt {
-  background: rgba(0, 170, 212, 0.15);
-}
-
-td.prtd_lightning {
-  padding: 5px;
-  _background: rgba(0, 170, 212, 0.2);
-}
-.prtd_workshop {
-  width: 550px;
-  _background: rgb(239, 131, 76);
-  background: rgba(0, 170, 212, 0.9);
-  color: white;
-}
-
-.sponsor-container {
-  margin-bottom: 80px;
-}
-.sponsor-line {
-}
-.sponsor-div {
-  display: inline-block;
-  margin: 50px 90px auto 90px;
-}
-
-.session_title {
-  font-weight: bold;
-  padding: 0 10%;
-}
-
-.session_speaker {
-  font-style: italic;
-}
-.session_lightningtalks_label {
-  text-align: left;
-  _font-style: italic;
-  _font-weight: bold;
-  text-transform: uppercase;
-  font-size: 80%;
-}
-
-.lightinig-cell {
-  position: relative;
-}
-
-.sticker {
-  float: left;
-  position: absolute;
-  top: -1.5em;
-  padding: .25em .5em;
-  background: rgb(128, 225, 255);
-  border-radius: 2px;
-  border: .25em solid white;
-  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
-  transform: rotate(-15deg);
-  -ms-transform: rotate(-15deg);
-  -webkit-transform: rotate(-15deg);
-}
-
-.btn-cta {
-  _background: rgba(226, 204, 102, 1);
-  _background: rgba(0, 170, 212, 0.3);
-  background: #5AB953;
-  color: white;
-  border-color: #49A34B;
-  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.btn-cta:hover, .btn-cta:focus {
-  background: #49A34B;
-  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.btn-cta:active {
-  box-shadow: none;
-}
-
-.well {
-  background: white;
-  padding: 2em 0;
-  border: 4px solid #009bc2;
-}
-
-.box-eventbrite {
-  position: relative;
-}
-
-.save-the-date {
-  text-transform: uppercase;
-  font-size: 140%;
-  background: rgb(0, 170, 212);
-  color: white;
-  font-weight: bold;
-}
-
-.btn-iscriviti {
-  background-color: green;
-  color: white;
-  border: 5px;
-}
-
-.info-iscrizione {
-  text-align: left;
-  font-size: 20px;
-  line-height: 1.6;
-  margin: 50px 150px auto 150px;
-  list-style-type: none;
-}
-
-.abstract-link {
-  color: black;
-}
-
-.abstracts {
-  margin-top: 30px;
-  background: white;
-  padding: 10px;
-}
-
-.abstract-div {
-  text-align: left;
-}
-
-.abstract-time {
-  float: left;
-  padding: 10px;
-}
-
-.abstract-content {
-  margin-left: 60px;
-  padding: 10px;
-  background: rgba(0, 170, 212, 0.25);
-}
-
-.abstract-content.alt {
-  background: rgba(0, 170, 212, 0.15);
-}
-
-.abstract-title {
-  display: inline-block;
-  font-weight: bold;
-}
-
-.abstract-speaker {
-  font-style: italic;
-}
-
-.abstract-text {
-  margin: 15px auto 15px;
-}
-
-@media print {
-  .share_buttons {
-    position: absolute;
-    top: -300px;
-    left: -100px;
-  }
-
-  table {
-    border: 1px solid black;
-  }
-  tr {
-    border: 1px solid black;
-  }
-  td {
-    border: 1px solid black;
-  }
-  th {
-    border: 1px solid black;
-  }
-
-  .programma {
-    page-break-before: always;
-  }
-
-  .abstracts {
-    page-break-before: always;
-  }
-
-  .abstract-content {
-    border: 1px solid black;
-  }
-
-}
-
-.a-videoslide
-{
-  margin-left: 5px;
-}
-
-.img-youtube {
-  height: 28px;
-}
-
-.img-slideshare {
-  height: 26px;
-}
-
-.flag{
-  height: 20px;
-}
-
-.simple-button {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 19px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  padding: 6px 12px;
-  color: #FFFFFF;
-  background-color: #02AAD3;
-  border-radius: 4px;
-  height: 48px;
-  line-height: 48px;
-  text-align: center;
-  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.13);
-  text-transform: uppercase;
-}
-
-.tema {
-  font-size: 20px;
-  font-weight: bold;
-  font-style: italic;
-}
-
-.send-c4p {
-  padding-top: 30px
-}
-
-#location {
-  text-align: left;
-}
-
-#location .centered {
-  text-align: center;
-}
-
-#location .title {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-#location .web {
-  font-size: 16px;
-  color: #000000;
-}
-
-#location .address {
-  font-size: 15px;
-}
-
-.overlay {
-  background-color: rgba(0,0,0,0.5);
-}
-
-.description {
-  padding-top: 5px;
-  padding-bottom: 25px;
-}
-
-.navbar{
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.top-nav-collapse{
-  padding: 0 30px;
-}
-
-.white{
-  color:white;
-}
-
-.cyan{
-  color:#02AAD3;
-}
-
-.backgroundCyan{
-  background: rgba(0, 170, 212, 0.5);
-}
-
-
-#headerimg{
-  max-width: 600px;
-  width: 80%;
+#headerimg {
+  max-width: 1700px;
 }
 
 @media (max-width: 500px) {
   #headerimg{
     width: 100%;
   }
-
-  table.prtbl{
-    font-size: 16px;
-  }
 }
 
-.nopadding{
-  padding:0px;
+#circle {
+  width: 25%;
+  height:0;
+  padding-bottom: 25%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+	background: #FED530;
 }
 
-.padding15{
-  padding:15px;
+.motto-section {
+  padding-top: 15em;
+  padding-bottom: 25em;
 }
 
-.bold{
+.motto {
+  position: relative;
+  left: -10em;
+  top: 6em;
+  font-size: 16pt
+}
+
+.motto .hashtag {
+  font-size: 13pt;
+  display: inline-block;
+  border-bottom: 4px solid #0F3FB7;
+  padding: 0 3px 3px 3px;
   font-weight: bold;
 }
 
-
-#clockdiv {
-  margin-top: 30px;
-  font-family: inherit;
-  color: #FFFFFF;
-  display: block;
-  font-weight: 100;
-  text-align: center;
-  font-size: 30px;
+@media (max-width: 767px) {
+  .motto {
+    position: relative;
+    left: 0em;
+    top: -4em;
+  }
 }
 
-#clockdiv > div {
-  font-family: sans-serif;
-  padding: 5px;
-  border-radius: 3px;
-  background: #02AAD3;
-  display: inline-block;
+.motto p {
+  color: #0F3FB7;
 }
 
-#clockdiv div > span {
-  padding: 15px;
-  border-radius: 3px;
-  background: #FFFFFF;
-  display: inline-block;
+.schedule {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #0F3FB7;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-.smalltext {
-  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding-top: 5px;
-  font-size: 16px;
-}
-
-#clockdiv span {
-   color: #1a1a1a;
-}
-
-.logo {
-  height: 250px;
-}
-
-.logo-xpeppers {
-  height: 50%;
-  vertical-align: middle
-}
-
-.logo-nw {
-  height: 20%;
-}
-
-.logo-pmi {
-  height: 60%;
-}
-
-.logo-sky {
-  height: 50%;
-}
-
-.helper {
-    display: inline-block;
+@media (min-width: 767px) {
+  .schedule {
     height: 100%;
-    vertical-align: middle;
+    padding: 0;
+  }
+}
+
+.schedule-body {
+  padding: 100px 20px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.schedule #schedule-triangle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.triangle {
+  width: 100%;
+  height: auto;
+}
+
+.intro-body #intro-triangle {
+  position: absolute;
+  top: 20em;
+  left: 0;
+}
+
+.intro-body #time-label {
+  position: absolute;
+  top: 42em;
+  left: 59em;
+}
+
+.intro-body #intro-half-circle {
+  position: absolute;
+  top: 20em;
+  right: 0;
+}
+
+@media (max-width: 767px) {
+  .triangle {
+    width: 35%;
+    height: auto;
+  }
+
+  .intro-body #intro-triangle {
+    position: absolute;
+    top: 10em;
+    left: -4em;
+  }
+
+  .intro-body #intro-half-circle {
+    position: absolute;
+    top: 10em;
+    right: 0;
+  }
+
+  .half-circle {
+    height: 3em;
+  }
+}
+
+.talk-schedule {
+  position: relative;
+  top: -15em;
+  font-family: "Arial Neue", Arial;
+  font-size: 1.1em;
+  padding-bottom: 11em;
+}
+
+.schedule-line-odd {
+  background-color: #ece5e5;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.schedule-line-even {
+  background-color: #f7f6f6;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.speaker-name {
+  padding-top: 0.5em;
+  font-size: 0.9em;
 }

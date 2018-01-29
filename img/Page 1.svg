@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="127px" viewBox="0 0 240 127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-10.4%" y="-20.2%" width="120.8%" height="144.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Desktop-HD-Copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-956.000000, -619.000000)">
+        <g id="Page-1" filter="url(#filter-1)" transform="translate(970.000000, 631.000000)">
+            <polygon id="Fill-1" fill="#FED530" points="0 15.579 5.3939047 98.947 212 83.367 206.606095 0"></polygon>
+            <g id="Group" transform="translate(99.243390, 49.089643) rotate(-4.000000) translate(-99.243390, -49.089643) translate(32.243390, 14.589643)" fill="#004DCD" font-weight="normal">
+                <text id="17" font-family=".SFNSDisplay, .SF NS Display" font-size="48.5805">
+                    <tspan x="0.5268" y="47.5626622">17</tspan>
+                </text>
+                <text id="Marzo" font-family=".SFNSDisplay, .SF NS Display" font-size="24.7926">
+                    <tspan x="52.5375259" y="33.1971335">Marzo</tspan>
+                </text>
+                <text id="2018" font-family=".AppleSystemUIFont" font-size="14.0935">
+                    <tspan x="54.5112388" y="52.3489757">2018</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
