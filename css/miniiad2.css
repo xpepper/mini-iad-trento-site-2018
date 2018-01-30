@@ -203,6 +203,17 @@ section.schedule .table .title {
   padding-right: 20%;
 }
 
+section.schedule .table .mini .title,
+section.schedule .table .mini .hours {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+section.schedule .table .mini .title {
+  font-size: 12pt;
+  font-weight: normal;
+}
+
 section.schedule .table .talk > .inner,
 section.schedule .table .big-talk > .inner,
 section.schedule .table .second-talk > .inner {
@@ -230,6 +241,10 @@ section.schedule .table .line-even {
 
 section.schedule .table .line-even .second-talk {
   background: #f2f2f2;
+}
+
+section.schedule .table .mini {
+  background-color: #f5ecc8;
 }
 
 section.schedule .table .talk-title {
