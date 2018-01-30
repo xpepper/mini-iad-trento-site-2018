@@ -315,7 +315,7 @@ section.gotomap .reach-us > span {
   padding: 10px 0 40px 0;
 }
 
-section.gotomap .reach-us > button {
+section.gotomap .reach-us > a.button {
   display: inline-block;
   background: #0F3FB7;
   color: white;
@@ -323,6 +323,7 @@ section.gotomap .reach-us > button {
   padding: 15px 25px;
   border-radius: 4px;
   border: none;
+  text-decoration: none;
 }
 
 section.sponsors {
