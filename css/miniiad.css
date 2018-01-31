@@ -182,7 +182,7 @@ section.schedule .table {
   line-height: normal;
   /* margin-top: -25vh; */
   font-family: "Arial Neue", Arial;
-  font-size: 1.1em;
+  font-size: 1rem;
   z-index: 9;
 }
 
@@ -204,7 +204,7 @@ section.schedule .table .title {
 section.schedule .table .hours {
   width: 15%;
   text-align: left;
-  font-size: 10pt;
+  font-size: 0.8rem;
   color: #565656;
 }
 
@@ -233,7 +233,7 @@ section.schedule .table .mini .hours {
 }
 
 section.schedule .table .mini .title {
-  font-size: 12pt;
+  font-size: 0.9rem;
   font-weight: normal;
 }
 
@@ -272,11 +272,11 @@ section.schedule .table .mini {
 
 section.schedule .table .talk-title {
   font-weight: bold;
-  font-size: 13pt;
+  font-size: 1rem;
 }
 
 section.schedule .table .speaker-name {
-  font-size: 9pt;
+  font-size: 0.7rem;
   color: #565656;
   font-weight: normal;
 }
@@ -327,14 +327,14 @@ section.gotomap .reach-us {
 }
 
 section.gotomap .reach-us > h3 {
-  font-size: 25pt;
+  font-size: 2.5rem;
   color: #0f3fb7;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 section.gotomap .reach-us > span {
   display: inline-block;
-  font-size: 12pt;
+  font-size: 1.1rem;
   padding: 10px 0 40px 0;
 }
 
@@ -342,9 +342,9 @@ section.gotomap .reach-us > a.button {
   display: inline-block;
   background: #0F3FB7;
   color: white;
-  font-size: 16px;
-  padding: 15px 25px;
-  border-radius: 4px;
+  font-size: 1rem;
+  padding: 12px 20px;
+  border-radius: 3px;
   border: none;
   text-decoration: none;
 }
@@ -358,7 +358,7 @@ section.sponsors .row {
 }
 
 .grid-title {
-  font-size: 25pt;
+  font-size: 2rem;
   color: #0f3fb7;
   font-weight: bold;
   padding: 40px 0;
