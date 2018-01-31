@@ -31,6 +31,10 @@ section.header .logo {
   vertical-align: middle;
 }
 
+section.header .logo.mobile {
+  display: none;
+}
+
 section.header .right-half-circle {
   display: inline-block;
   position: absolute;
@@ -419,16 +423,34 @@ section.sponsors .row {
     padding-top: 4rem;
   }
 
+  section.header .logo {
+    display: none;
+  }
+
+  section.header .logo.mobile {
+    display: inline-block;
+  }
+
   section.header .location {
     top: 2rem;
   }
 
   section.header .location .name {
     font-size: 0.8rem;
+    font-weight: normal;
   }
 
   section.header .location .address {
     font-size: 0.6rem;
+    font-weight: normal;
+  }
+
+  section.header .scroll-down {
+    display: none;
+  }
+
+  section.header .right-half-circle {
+    top: 8rem;
   }
 
   section.schedule .row > .legend {
