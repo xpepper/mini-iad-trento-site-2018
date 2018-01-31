@@ -305,8 +305,9 @@ section.schedule .schedule-triangle {
 section.schedule .schedule-triangle img {
   position: relative;
   left: -80px;
-  bottom: -50px;
+  bottom: -40px;
   transform: rotate(60deg);
+  width: 70%;
 }
 
 section.gotomap {
