@@ -362,8 +362,6 @@ section.sponsors .row {
   padding: 40px 0;
 }
 
-
-
 .grid-3-columns .element {
   display: inline-block;
   width: 31%;
@@ -374,28 +372,28 @@ section.sponsors .row {
   vertical-align: middle;
 }
 
-.grid-3-columns .element img{
-  max-width: 90%;
+.grid-3-columns .element img {
+  max-width: 75%;
   text-align: center;
   vertical-align: middle;
 }
 
 .grid-3-columns .element img.logo-xpeppers {
-  max-width: 60%;
+  max-width: 40%;
 }
 
 .grid-3-columns .element img.logo-thread {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .grid-3-columns .element img.logo-sky {
-  max-width: 70%;
+  max-width: 50%;
 }
 
 .grid-3-columns .element img.logo-nw {
-  max-width: 70%;
+  max-width: 50%;
 }
 
 .grid-3-columns .element img.logo-pmi {
-  max-width: 50%;
+  max-width: 40%;
 }
