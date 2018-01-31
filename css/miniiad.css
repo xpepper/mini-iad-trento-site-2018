@@ -433,6 +433,15 @@ section.sponsors .row {
 
   section.header .logo.mobile {
     display: inline-block;
+    padding-top: 4rem;
+  }
+
+  section.header .left-triangle {
+    padding-top: 4rem;
+  }
+
+  section.header .right-half-circle {
+    padding-top: 8rem;
   }
 
   section.header .location {
