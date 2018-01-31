@@ -479,4 +479,21 @@ section.sponsors .row {
   section.schedule .row > .legend {
     display: none;
   }
+
+  .grid-3-columns .element {
+    width: 90%;
+    margin: 0 1%;
+    height: auto;
+    line-height: normal;
+  }
+
+  .media-partners {
+    padding-top: 80px;
+  }
+
+  .grid-3-columns .element .logo-nw,
+  .grid-3-columns .element .logo-fightbean,
+  .grid-3-columns .element .logo-pixart {
+    padding: 40px 0;
+  }
 }
