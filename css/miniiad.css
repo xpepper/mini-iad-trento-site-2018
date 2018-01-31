@@ -468,6 +468,11 @@ section.sponsors .row {
     border-radius: 50%;
   }
 
+  section .slogan {
+    padding-top: 7em;
+    padding-bottom: 7em;
+  }
+
   section .slogan span {
     margin-left: -35%;
     line-height: normal;
