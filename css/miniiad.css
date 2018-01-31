@@ -12,18 +12,13 @@ html, body {
   background: white;
   text-align: center;
   font-family: 'Poppins', Helvetica, "Helvetica Neue";
+  font-size: 1rem;
 }
 
 section {
   vertical-align: middle;
   padding: 0px 15%;
   height: 100vh;
-}
-
-@media screen and (max-width: 1200px) {
-  section {
-    padding: 0px 5%;
-  }
 }
 
 section.header {
@@ -72,7 +67,7 @@ section.header .location {
 }
 
 section.header .location .fa-map-marker {
-  font-size: 26pt;
+  font-size: 2.3rem;
   margin: 3px 10px 0 0;
   vertical-align: top;
 }
@@ -89,14 +84,14 @@ section.header .location div {
 
 section.header .location .name {
   display: inline-block;
-  font-size: 14pt;
+  font-size: 1rem;
   font-weight: 100;
   letter-spacing: 1px;
 }
 
 section.header .location .address {
   display: block;
-  font-size: 10pt;
+  font-size: 0.8rem;
   font-weight: 100;
   letter-spacing: 1px;
 }
@@ -396,4 +391,47 @@ section.sponsors .row {
 
 .grid-3-columns .element img.logo-pmi {
   max-width: 40%;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  section {
+    padding: 0px 5%;
+  }
+
+  section.schedule .row > .legend {
+    right: -5.5%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  section {
+    padding: 0px 2%;
+    height: auto;
+  }
+
+  section .row {
+    line-height: normal;
+  }
+
+  section.header {
+    padding-top: 4rem;
+  }
+
+  section.header .location {
+    top: 2rem;
+  }
+
+  section.header .location .name {
+    font-size: 0.8rem;
+  }
+
+  section.header .location .address {
+    font-size: 0.6rem;
+  }
+
+  section.schedule .row > .legend {
+    display: none;
+  }
 }
