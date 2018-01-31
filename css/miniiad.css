@@ -123,6 +123,10 @@ section .slogan #circle {
   vertical-align: middle;
 }
 
+section.white {
+  height: 75vh;
+}
+
 section .slogan {
   position: relative;
   vertical-align: middle;
@@ -160,10 +164,20 @@ section.schedule {
   position: relative;
 }
 
+section.schedule:before {
+  content: '';
+  background: white;
+  height: 25vh;
+  display: block;
+  left: -15%;
+  position: absolute;
+  right: -15%;
+}
+
 section.schedule .table {
   position: relative;
   line-height: normal;
-  margin-top: -25vh;
+  /* margin-top: -25vh; */
   font-family: "Arial Neue", Arial;
   font-size: 1.1em;
   z-index: 9;
@@ -273,8 +287,8 @@ section.schedule .row > .timetable {
 
 section.schedule .row > .legend {
   position: absolute;
-  top: 70px;
-  right: -60px;
+  top: 30vh;
+  right: -90px;
   z-index: 1;
 }
 
