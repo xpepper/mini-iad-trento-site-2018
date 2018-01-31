@@ -515,3 +515,18 @@ section.sponsors .row {
     padding: 40px 0;
   }
 }
+
+@media screen and (max-width: 369px) {
+
+  section .slogan #circle {
+    width: 38%;
+    padding-bottom: 38%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  section .slogan span {
+    font-size: 0.8rem;
+  }
+}
