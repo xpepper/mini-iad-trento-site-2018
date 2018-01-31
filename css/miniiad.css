@@ -4,11 +4,14 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 html, body {
   background: white;
   text-align: center;
   font-family: 'Poppins', Helvetica, "Helvetica Neue";
-  overflow-x: hidden;
 }
 
 section {
