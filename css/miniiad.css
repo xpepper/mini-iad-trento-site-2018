@@ -70,8 +70,9 @@ section.header .location {
   color: white;
 }
 
-section.header .location .fa-map-marker {
-  font-size: 2.3rem;
+section.header .location .marker {
+  display: inline-block;
+  width: 30px;
   margin: 3px 10px 0 0;
   vertical-align: top;
 }
