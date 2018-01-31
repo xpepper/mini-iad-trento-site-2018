@@ -135,7 +135,7 @@ section .slogan span {
   display: inline-block;
   margin-left: -15%;
   color: #0F3FB7;
-  font-size: 20pt;
+  font-size: 1.6rem;
   line-height: 25pt;
   vertical-align: middle;
 }
@@ -143,7 +143,7 @@ section .slogan span {
 section .slogan .hashtag {
   display: inline-block;
   margin-top: 20px;
-  font-size: 16pt;
+  font-size: 1.5rem;
   border-bottom: 4px solid #0F3FB7;
 }
 
@@ -451,6 +451,29 @@ section.sponsors .row {
 
   section.header .right-half-circle {
     top: 8rem;
+  }
+
+  section.white {
+    height: auto;
+  }
+
+  section .slogan #circle {
+    width: 50%;
+    padding-bottom: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  section .slogan span {
+    margin-left: -35%;
+    line-height: normal;
+    font-size: 1rem;
+  }
+
+  section .slogan .hashtag {
+    font-size: 0.9rem;
+    border-bottom: 2px solid #0F3FB7;
   }
 
   section.schedule .row > .legend {
