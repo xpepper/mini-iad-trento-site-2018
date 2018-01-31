@@ -7,7 +7,8 @@
 html, body {
   background: white;
   text-align: center;
-  font-family: 'Poppins', Helvetica, "Helvetica Neue"
+  font-family: 'Poppins', Helvetica, "Helvetica Neue";
+  overflow-x: hidden;
 }
 
 section {
