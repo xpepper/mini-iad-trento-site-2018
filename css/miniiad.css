@@ -424,6 +424,7 @@ section.sponsors .row {
 
   section.header {
     padding-top: 4rem;
+    min-height: 30rem;
   }
 
   section.header .logo {
@@ -469,8 +470,8 @@ section.sponsors .row {
   }
 
   section .slogan {
-    padding-top: 7em;
-    padding-bottom: 7em;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 
   section .slogan span {
