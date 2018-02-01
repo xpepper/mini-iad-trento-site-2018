@@ -74,7 +74,7 @@ section.header .flag {
   display: inline-block;
   position: absolute;
   top: 0px;
-  right: 64px;
+  right: 20px;
 }
 
 section.header .flag img {
