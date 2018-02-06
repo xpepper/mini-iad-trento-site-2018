@@ -424,7 +424,7 @@ section.sponsors .row {
   }
 }
 
-@media screen and (max-width: 450px), (max-height: 450px) {
+@media screen and (max-width: 500px), (max-height: 500px) {
 
   .break-mobile {
     display: block;
