@@ -425,6 +425,11 @@ section.sponsors .row {
 }
 
 @media screen and (max-width: 450px), (max-height: 450px) {
+
+  .break-mobile {
+    display: block;
+  }
+
   section {
     padding: 0px 2%;
     height: auto;
