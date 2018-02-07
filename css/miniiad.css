@@ -416,6 +416,14 @@ section.sponsors .row {
   max-width: 65%;
 }
 
+.grid-3-columns .element img.logo-universita {
+  max-width: 95%;
+}
+
+.grid-3-columns .element img.logo-hit {
+  max-width: 95%;
+}
+
 
 
 @media screen and (max-width: 1200px) {
