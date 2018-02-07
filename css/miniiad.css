@@ -363,10 +363,16 @@ section.gotomap .reach-us > a.button {
 
 section.sponsors {
   background: white;
+  height: auto;
+}
+
+section.sponsors.media {
+  background: #f2f2f2;
 }
 
 section.sponsors .row {
   line-height: normal;
+  padding-bottom: 0;
 }
 
 .grid-title {
@@ -537,10 +543,6 @@ section.sponsors .row {
     margin: 0 1%;
     height: auto;
     line-height: normal;
-  }
-
-  .media-partners {
-    padding-top: 80px;
   }
 
   .grid-3-columns .element .logo-nw,
