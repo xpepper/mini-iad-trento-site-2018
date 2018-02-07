@@ -412,6 +412,11 @@ section.sponsors .row {
   max-width: 40%;
 }
 
+.grid-3-columns .element img.logo-belka {
+  max-width: 50%;
+  margin-top: -20px;
+}
+
 .grid-3-columns .element img.logo-tangible {
   max-width: 65%;
 }
@@ -540,7 +545,10 @@ section.sponsors .row {
 
   .grid-3-columns .element .logo-nw,
   .grid-3-columns .element .logo-fightbean,
-  .grid-3-columns .element .logo-pixart {
+  .grid-3-columns .element .logo-pixart,
+  .grid-3-columns .element .logo-belka,
+  .grid-3-columns .element .logo-tangible {
+    margin: 0 auto;
     padding: 40px 0;
   }
 }
