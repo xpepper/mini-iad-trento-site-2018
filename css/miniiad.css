@@ -412,6 +412,10 @@ section.sponsors .row {
   max-width: 40%;
 }
 
+.grid-3-columns .element img.logo-tangible {
+  max-width: 65%;
+}
+
 
 
 @media screen and (max-width: 1200px) {
