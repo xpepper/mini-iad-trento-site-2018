@@ -213,7 +213,7 @@ section.schedule .table .title {
 }
 
 section.schedule .table .hours {
-  width: 15%;
+  width: 11%;
   text-align: left;
   font-size: 0.8rem;
   color: #565656;
@@ -222,18 +222,18 @@ section.schedule .table .hours {
 section.schedule .table .talk,
 section.schedule .table .second-talk,
 section.schedule .table .big-talk {
-  width: 35%;
+  width: 37%;
   text-align: left;
   position: relative;
 }
 
 section.schedule .table .second-talk {
-  width: 50%;
+  width: 52%;
 }
 
 section.schedule .table .big-talk,
 section.schedule .table .title {
-  width: 85%;
+  width: 89%;
   padding-right: 20%;
 }
 
@@ -257,6 +257,12 @@ section.schedule .table .second-talk > .inner {
 
 section.schedule .table .second-talk > .inner {
   border-color: #42d67b;
+}
+
+section.schedule .table .line-odd,
+section.schedule .table .line-even {
+  display: flex;
+  flex-flow: row;
 }
 
 section.schedule .table .line-odd {
@@ -283,13 +289,14 @@ section.schedule .table .mini {
 
 section.schedule .table .talk-title {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 section.schedule .table .speaker-name {
-  font-size: 0.7rem;
+  font-size: 0.78rem;
   color: #565656;
   font-weight: normal;
+  margin-top: 0.3rem;
 }
 
 section.schedule .row > .timetable {
