@@ -299,6 +299,14 @@ section.schedule .table .speaker-name {
   margin-top: 0.3rem;
 }
 
+section.schedule .table .big-talk .talk-title{
+  font-size: 1.1rem;
+}
+
+section.schedule .table .big-talk .speaker-name{
+  font-size: 0.9rem;
+}
+
 section.schedule .row > .timetable {
   position: absolute;
   bottom: 70px;
