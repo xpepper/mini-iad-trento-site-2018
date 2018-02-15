@@ -124,6 +124,59 @@ section .row {
   padding: 5% 0;
 }
 
+section .row.pristine {
+  line-height: inherit !important;
+  position: relative;
+  max-width: 1024px;
+  display: inline-block;
+  width: 100%;
+  padding: 5% 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  display: block;
+  text-align: left;
+  color: white;
+}
+
+.owl-carousel {}
+
+.owl-carousel li {
+  display: inline-block;
+  background: orange;
+  height: 330px;
+  width: 330px;
+}
+
+.owl-nav {
+  background: red ;
+  position: absolute;
+  top: -60px;
+  right: 0;
+}
+
+.owl-prev,
+.owl-next {
+  display: inline-block !important;
+  border: none !important;
+}
+
+.owl-prev {
+  background: url(/img/carousel-left.png) !important;
+}
+
+.owl-next {
+  background: url(/img/carousel-right.png) !important;
+}
+
+.owl-prev.disabled,
+.owl-next.disabled {
+
+}
+
 section .slogan #circle {
   width: 30%;
   height:0;
