@@ -1,5 +1,11 @@
 http://www.agileday.it/mini/2018/trento/
 
+## Update dependencies
+
+```sh
+  npm install owl.carousel
+```
+
 ## Deploy
 First, get a valid .pem certificate (let's call it `miniiad.pem`) to be able to connect to the machine where the site is published (through a git repository and a deploy automation).
 
