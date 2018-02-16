@@ -643,6 +643,11 @@ section.sponsors .row {
     margin: 0 auto;
     padding: 40px 0;
   }
+
+  .speaker-box {
+    margin: -1.5rem auto 2rem auto;
+  }
+
 }
 
 @media screen and (max-width: 369px) {
