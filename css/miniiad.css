@@ -174,11 +174,11 @@ h2 {
 }
 
 .owl-prev {
-  background: url(img/carousel-left.png) !important;
+  background: url(../img/carousel-left.png) !important;
 }
 
 .owl-next {
-  background: url(img/carousel-right.png) !important;
+  background: url(../img/carousel-right.png) !important;
 }
 
 .owl-prev.disabled,
