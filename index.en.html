@@ -12,12 +12,13 @@
     <title>MIAD Trento2018</title>
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="icon" type="image/png" href="img/favicon.png" />
-    <!-- Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,400,400i,600,600i" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/miniiad.css"></link>
+    <link href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="node_modules/owl.carousel/dist/assets/owl.theme.default.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,400,400i,600,600i" rel="stylesheet" />
+    <link href="css/miniiad.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <section class="header">
@@ -193,6 +194,89 @@
           <div class="clear"></div>
         </div>
       </div>
+      <div class="row pristine">
+        <h2>Speakers</h2>
+        <ul id="speaker-carousel" class="owl-carousel owl-theme">
+          <li>
+            <img src="img/speakers/AlbertoBrandolini2.jpg" alt="Alberto Brandolini">
+            <div class="speaker-box">
+              <h3>Alberto Brandolini</h3>
+            </div>
+          </li>
+          <li>
+            <img src="img/speakers/MarcoConsolaro.jpg" alt="Marco Consolaro">
+            <div class="speaker-box">
+              <h3>Marco Consolaro</h3>
+            </div>
+          </li>
+          <li>
+            <img src="img/speakers/AndreaFrancia.jpg" alt="Andrea Francia">
+            <div class="speaker-box">
+              <h3>Andrea Francia</h3>
+            </div>
+          </li>
+          <li>
+            <img src="img/speakers/MatteoCarella.jpg" alt="Matteo Carella">
+            <div class="speaker-box">
+              <h3>Matteo Carella</h3>
+            </div>
+          </li>
+          <li>
+            <img src="img/speakers/EmanueleMantovani.jpg" alt="Emanuele Mantovani">
+            <div class="speaker-box">
+              <h3>Emanuele Mantovani</h3>
+            </div>
+          </li>
+          <li>
+            <img src="img/speakers/MarcoFracassi.png" alt="Marco Fracassi">
+            <div class="speaker-box">
+              <h3>Marco Fracassi</h3>
+            </div>
+          </li>
+          <li>
+            <img src="img/speakers/PietroCampagnano.jpg" alt="Pietro Campagnano">
+            <div class="speaker-box">
+              <h3>Pietro Campagnano</h3>
+            </div>
+          </li>
+          <li>
+            <img src="img/speakers/GaetanoMazzanti.jpg" alt="Gaetano Mazzanti">
+            <div class="speaker-box">
+              <h3>Gaetano Mazzanti</h3>
+            </div>
+          </li>
+          <li>
+            <img src="img/speakers/AndreaZacchi.jpg" alt="Andrea Zacchi">
+            <div class="speaker-box">
+              <h3>Andrea Zacchi</h3>
+            </div>
+          </li>
+          <li>
+            <img src="img/speakers/NicolaMoretto.jpg" alt="Nicola Moretto">
+            <div class="speaker-box">
+              <h3>Nicola Moretto</h3>
+            </div>
+          </li>
+          <li>
+            <img src="img/speakers/JacopoFranzoi.jpg" alt="Jacopo Franzoi">
+            <div class="speaker-box">
+              <h3>Jacopo Franzoi</h3>
+            </div>
+          </li>
+          <li>
+            <img src="img/speakers/PierpaoloCimirro.jpg" alt="Pierpaolo Cimirro">
+            <div class="speaker-box">
+              <h3>Pierpaolo Cimirro</h3>
+            </div>
+          </li>
+          <li>
+            <img src="img/speakers/TizianoInterlandi.jpg" alt="Tiziano Interlandi">
+            <div class="speaker-box">
+              <h3>Tiziano Interlandi</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="gotomap">
       <div class="row">
@@ -236,6 +320,13 @@
       </div>
     </section>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="node_modules/owl.carousel/dist/owl.carousel.js" onload="console.info('loaded owl')"></script>
     <script  src="js/scroll.js"></script>
+    <script>
+      /* globals jQuery */
+      jQuery(document).ready(function () {
+        jQuery('.owl-carousel').owlCarousel({nav: true, dots: false, margin: 10})
+      })
+    </script>
   </body>
   </html>
