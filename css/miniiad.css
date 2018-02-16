@@ -144,6 +144,11 @@ h2 {
 
 .owl-carousel {}
 
+.owl-carousel img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 .owl-carousel li {
   display: inline-block;
   /*
