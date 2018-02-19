@@ -217,6 +217,7 @@ section.white {
 section .slogan {
   position: relative;
   vertical-align: middle;
+  top: -65px;
 }
 
 section .slogan span {
@@ -621,6 +622,7 @@ section.sponsors .row {
   section .slogan {
     padding-top: 7rem;
     padding-bottom: 7rem;
+    top: 0;
   }
 
   section .slogan span {
@@ -688,4 +690,5 @@ section.sponsors .row {
   width: 80%;
   margin: 1em auto;
   max-width: 500px;
+  line-height: normal;
 }
