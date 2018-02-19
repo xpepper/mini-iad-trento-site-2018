@@ -454,10 +454,21 @@ section.gotomap .reach-us > a.button {
 section.sponsors {
   background: white;
   height: auto;
+  padding-bottom: 10%;
+  padding-top: 10%;
 }
 
 section.sponsors.media {
   background: #f2f2f2;
+}
+
+section.sponsors.iam {
+  background: #f2f2f2;
+  padding: 0 15%;
+}
+
+section.sponsors.iam img {
+  max-width: 75%;
 }
 
 section.sponsors .row {
