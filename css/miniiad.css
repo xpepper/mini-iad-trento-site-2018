@@ -446,7 +446,7 @@ section.gotomap .reach-us > a.button {
   color: white;
   font-size: 1rem;
   padding: 12px 20px;
-  border-radius: 3px;
+  /*border-radius: 3px;*/
   border: none;
   text-decoration: none;
 }
@@ -677,18 +677,35 @@ section.sponsors .row {
   }
 }
 
-[name=tickets] a {
-  display: block;
+.tickets {
+  line-height: normal;
+  position: relative;
+  z-index: 3;
+}
+
+.tickets a {
+  display: inline-block;
   color: white;
   background: #0d51ca;
-  padding: 0.8rem 0.8rem;
+  padding: 0.8rem 2rem;
   text-decoration: none;
-  border-radius: 0.4rem;
   font-weight: 600;
   cursor: pointer;
   transition: .5s ease all;
-  width: 80%;
   margin: 1em auto;
   max-width: 500px;
   line-height: normal;
+}
+
+.tickets a:hover {
+  text-decoration: underline;
+}
+
+.tickets.white a {
+  background: white;
+  color: #0F3FB7;
+}
+
+.tickets.white a:hover {
+  background: #fed530;
 }
