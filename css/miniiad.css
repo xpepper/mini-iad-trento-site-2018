@@ -183,7 +183,6 @@ h2 {
 
 .owl-prev.disabled,
 .owl-next.disabled {
-
 }
 
 .speaker-box {
@@ -674,4 +673,19 @@ section.sponsors .row {
   section .slogan span {
     font-size: 0.8rem;
   }
+}
+
+[name=tickets] a {
+  display: block;
+  color: white;
+  background: #0d51ca;
+  padding: 0.4rem 0.8rem;
+  text-decoration: none;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .5s ease all;
+  width: 80%;
+  margin: 1em auto;
+  max-width: 500px;
 }
