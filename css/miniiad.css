@@ -13,6 +13,20 @@ html, body {
   text-align: center;
   font-family: 'Poppins', Helvetica, "Helvetica Neue";
   font-size: 1rem;
+  color: #3c3c3c;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+.subtitle {
+  display: inline-block;
+  padding-bottom: 3rem;
 }
 
 section {
@@ -133,8 +147,7 @@ section .row.pristine {
   padding: 5% 0;
 }
 
-h2 {
-  font-size: 1.4rem;
+section.schedule h2 {
   font-weight: 300;
   display: block;
   text-align: left;
@@ -186,6 +199,7 @@ h2 {
 }
 
 .speaker-box {
+  text-align: center;
   background: #FED530;
   color: #0F3FB7;
   width: 90%;
@@ -536,7 +550,58 @@ section.sponsors .row {
   max-width: 95%;
 }
 
+section.talks {
+  height: auto;
+}
 
+section.talks .row {
+  line-height: normal;
+}
+
+section.talks .talk {
+  text-align: left;
+  padding: 1.5rem 0;
+  height: auto;
+}
+
+section.talks .talk:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+section.talks .talk .image,
+section.talks .talk .text {
+  float: left;
+  width: 28%;
+  padding: 1rem 1%;
+}
+
+section.talks .talk .image img {
+  width: 100%;
+}
+
+section.talks .talk .image .date {
+  border-left: 4px solid #fed530;
+  padding-left: 10px;
+  margin: 0.7rem 0 2rem 0;
+}
+
+section.talks .talk .image .date.green {
+  border-color: #42d67b;
+}
+
+section.talks .talk .text {
+  width: 68%;
+}
+
+section.talks .talk .abstract {
+  padding-top: 0.5rem;
+}
+
+section.talks .talk .description {
+  padding-top: 3rem;
+}
 
 @media screen and (max-width: 1200px) {
   section {
@@ -657,7 +722,44 @@ section.sponsors .row {
   }
 
   .speaker-box {
-    margin: -1.5rem auto 2rem auto;
+    margin: 0rem;
+  }
+
+  section.talks .talk .image,
+  section.talks .talk .text {
+    float: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  section.talks .talk .image {
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  section.talks .talk .image img {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+  }
+
+  section.talks .talk .image .speaker-box {
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+    margin-left: 5%;
+    vertical-align: middle;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    height: auto;
+  }
+
+  section.talks .talk .image .date {
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    margin: 0 5% 0 0;
   }
 
 }
