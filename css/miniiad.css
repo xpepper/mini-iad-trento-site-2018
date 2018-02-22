@@ -295,6 +295,8 @@ section.schedule .table .big-talk {
   padding: 3% 5%;
   float: left;
   text-align: center;
+  color: #3c3c3c;
+  text-decoration: none;
 }
 
 section.schedule .table .title {
