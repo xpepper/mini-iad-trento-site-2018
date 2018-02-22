@@ -578,7 +578,7 @@ section.talks .talk:after {
 section.talks .talk .image,
 section.talks .talk .text {
   float: left;
-  width: 28%;
+  width: 23%;
   padding: 1rem 1%;
 }
 
@@ -597,7 +597,7 @@ section.talks .talk .image .date.green {
 }
 
 section.talks .talk .text {
-  width: 68%;
+  width: 72%;
   padding: 1rem 0 1rem 2%;
 }
 
