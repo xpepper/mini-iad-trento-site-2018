@@ -199,6 +199,8 @@ section.schedule h2 {
 }
 
 .speaker-box {
+  display: block;
+  text-decoration: none;
   text-align: center;
   background: #FED530;
   color: #0F3FB7;
