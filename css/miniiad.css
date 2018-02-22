@@ -25,11 +25,6 @@ h2 {
   margin-bottom: 2rem;
 }
 
-.subtitle {
-  display: inline-block;
-  padding-bottom: 3rem;
-}
-
 section {
   vertical-align: middle;
   padding: 0px 15%;
@@ -567,6 +562,10 @@ section.talks .talk {
   text-align: left;
   padding: 1.5rem 0;
   height: auto;
+}
+
+section.talks.keynote {
+  background: #fff9df;
 }
 
 section.talks .talk:after {
