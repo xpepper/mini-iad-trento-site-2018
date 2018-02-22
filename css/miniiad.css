@@ -22,6 +22,7 @@ h1 {
 
 h2 {
   font-size: 1.4rem;
+  margin-bottom: 2rem;
 }
 
 .subtitle {
@@ -588,7 +589,7 @@ section.talks .talk .image img {
 section.talks .talk .image .date {
   border-left: 4px solid #fed530;
   padding-left: 10px;
-  margin: 0.7rem 0 2rem 0;
+  margin: 0.7rem 0 1.5rem 0;
 }
 
 section.talks .talk .image .date.green {
@@ -597,6 +598,7 @@ section.talks .talk .image .date.green {
 
 section.talks .talk .text {
   width: 68%;
+  padding: 1rem 0 1rem 2%;
 }
 
 section.talks .talk .abstract {
@@ -604,7 +606,7 @@ section.talks .talk .abstract {
 }
 
 section.talks .talk .description {
-  padding-top: 3rem;
+  padding-top: 2.5rem;
 }
 
 @media screen and (max-width: 1200px) {
