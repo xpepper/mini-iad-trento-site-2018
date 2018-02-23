@@ -568,6 +568,14 @@ section.talks.keynote {
   background: #fff9df;
 }
 
+section.talks.keynote .row {
+  padding: 0;
+}
+
+section.talks.keynote .row .talk {
+  padding: 0;
+}
+
 section.talks .talk:after {
   content: '';
   display: block;
